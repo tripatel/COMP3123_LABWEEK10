@@ -1,0 +1,44 @@
+.App {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  border: 2px solid green;
+}
+
+h1 {
+  text-align: center;
+  font-size: 24px;
+}
+
+.data-entry-form .form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.data-entry-form label {
+  margin-top: 10px;
+}
+
+.data-entry-form input,
+.data-entry-form select {
+  padding: 8px;
+  margin-top: 5px;
+}
+
+.form-group.checkbox {
+  display: flex;
+  align-items: center;
+}
+
+.submit-button {
+  background-color: green;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: darkgreen;
+}
